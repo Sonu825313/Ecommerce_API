@@ -1,8 +1,10 @@
 
 const mongoose = require('mongoose');
 
+let dburl = "mongodb+srv://ecommerce_api:d1d3FJvK9PFCxsBP@cluster0.7ngc5ly.mongodb.net/?retryWrites=true&w=majority"
+
 // connect from mongodb
-mongoose.connect(process.env.MONGOOSE_URL);
+mongoose.connect(dburl || process.env.MONGOOSE_URL);
 // mongoose.connect('tabase?retryWrites=true&w=majority');
 
 // aquire connection if it is succesful
