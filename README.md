@@ -1,6 +1,9 @@
 ﻿# Ecommerce_API
  
- Design an API for an ecommerce platform admin to manage product inventory
+ Design an API for an ecommerce platform admin to manage product inventory.
+ 
+ ## Hosted link :-
+ https://ecommerceapi00.herokuapp.com/products
 
 # All Product
 
